@@ -78,12 +78,12 @@ WSGI_APPLICATION = 'DjangoBootcampSample.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql', # MySQL engine
+        'ENGINE': 'django.db.backends.postgresql', # MySQL engine
         'NAME': 'sampledatabasetry', # Whatever YOUR database name is here
-        'USER': 'root',
-        'PASSWORD': 'root', # defaults from MAMP/PhPMyAdmin
-        'HOST': '/Applications/MAMP/tmp/mysql/mysql.sock', # (this is where MAMP should be installed)
-        'PORT': '8888', # default port the MAMP Apache servers run on
+        'USER': '',
+        'PASSWORD': '', # defaults from MAMP/PhPMyAdmin
+        'HOST': 'localhost', # (this is where MAMP should be installed)
+        'PORT': '5432', # default port the MAMP Apache servers run on
             }
          }
 
