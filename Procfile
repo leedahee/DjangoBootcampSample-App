@@ -1,0 +1,1 @@
+web: gunicorn DjangoBootcampSample.wsgi --log-file -
